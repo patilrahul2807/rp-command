@@ -50,6 +50,7 @@ Project state lives in `.rp/` in the folder you run it from, so `/rp-start` can 
 | `/rp-command:rp-connect` | registers the `rp-wordpress` MCP server and saves media-upload credentials to `~/.rp-command/connection.json` |
 | `/rp-command:rp-doctor` | read-only health check |
 | `/rp-command:rp-start` | the full build flow above |
+| `/rp-command:rp-build <page-slug> [--full-qa] [--publish-live] [--strict-sections]` | build / resume ONE page through every hard gate, stopping at the first failure (needs `/rp-start` done once) |
 
 ## Figma / XD notes
 

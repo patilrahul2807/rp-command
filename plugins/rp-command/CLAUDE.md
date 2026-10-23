@@ -6,10 +6,10 @@ maintenance agents. All site reads/writes go through the **RP Connect** bridge �
 
 ## Layout
 
-- `commands/` — `rp-connect`, `rp-doctor`, `rp-start` (entry point; it orchestrates)
+- `commands/` — `rp-connect`, `rp-doctor`, `rp-start` (setup + full flow), `rp-build` (one page, gated, resumable)
 - `agents/` — one subagent per pipeline phase (`acf-*`, `elementor-*`, `gutenberg-*`, `avada-*`, `figma-html-*`, `html-*`, `maint-*`, `qa`, `visual-regression-auditor`)
 - `skills/` — knowledge loaded by agents; `rp-core-rules` and `rp-dispatch` are the backbone
-- `scripts/` — `figma_extract.py`, `xd_extract.py`, `wp_upload_media.py` (stdlib-only Python)
+- `scripts/` — `figma_extract.py`, `xd_extract.py`, `wp_upload_media.py`, `checkpoint.py` (stdlib-only Python)
 - `hooks/`, `eval/` — reserved
 
 ## Rules
