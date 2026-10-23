@@ -1,0 +1,18 @@
+{
+  "name": "rp-command",
+  "description": "WordPress build & maintenance agents for Claude Code. Connect to a client site running the RP Connect WP plugin (MCP bridge) and drive Elementor/ACF builds, page maintenance, SEO and updates — with a builder-agnostic visual-regression QA auditor and a structural QA gate that blocks unverified site writes.",
+  "author": {
+    "name": "RP Solutions",
+    "url": "https://rp.solutions"
+  },
+  "hooks": "./hooks/hooks.json",
+  "keywords": [
+    "wordpress",
+    "elementor",
+    "acf",
+    "mcp",
+    "qa",
+    "figma",
+    "html"
+  ]
+}
